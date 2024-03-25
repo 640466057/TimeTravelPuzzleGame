@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 314628090}
-  AffectedByTimeTravel: 0
+  AffectedByTimeTravel: 1
 --- !u!212 &1645849081
 SpriteRenderer:
   m_ObjectHideFlags: 0

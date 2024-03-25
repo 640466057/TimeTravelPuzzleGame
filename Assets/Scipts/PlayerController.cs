@@ -20,16 +20,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float gravity;
     [SerializeField] float jumpGravity;
 
-    [Header("Input")]
-    public KeyCode timeTravel;
+    [Header("Time Travel")]
     public State timeTravelMode;
     public enum State
     {
         box,
         together
     }
-    [SerializeField] private KeyCode changeMode;
-    [SerializeField] private KeyCode reset;
 
     // Start is called before the first frame update
     void Start()
@@ -39,17 +36,21 @@ public class PlayerController : MonoBehaviour
             gameObject.TryGetComponent(out PlayerController PC);
             PC.enabled = false;
         }
+        else
+        {
+            
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         //reset
-        if (Input.GetKeyDown(reset))
+        if (Input.GetKeyDown(StaticControls.keys[2]))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         
         //Time Travel Mode
-        if (Input.GetKeyDown(changeMode))
+        if (Input.GetKeyDown(StaticControls.keys[0]))
         {
             if (timeTravelMode == State.box)
                 timeTravelMode = State.together;
@@ -58,7 +59,7 @@ public class PlayerController : MonoBehaviour
         }
         
         //Time Travel
-        if (Input.GetKeyDown(timeTravel) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together)
+        if (Input.GetKeyDown(StaticControls.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together)
         {
                 TM.TimeTravel();
         }

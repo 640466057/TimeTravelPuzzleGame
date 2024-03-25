@@ -22,7 +22,7 @@ public class Box : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.TryGetComponent(out PlayerController PC) && gameObject.TryGetComponent(out TimeMachine TM) && Input.GetKeyDown(PC.timeTravel) && AffectedByTimeTravel)
+        if (player.TryGetComponent(out PlayerController PC) && gameObject.TryGetComponent(out TimeMachine TM) && Input.GetKeyDown(StaticControls.keys[1]) && AffectedByTimeTravel)
         {
             TM.TimeTravel();
         }
