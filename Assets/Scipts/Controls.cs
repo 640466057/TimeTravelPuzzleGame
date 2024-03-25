@@ -20,7 +20,7 @@ public class Controls : MonoBehaviour
     private void Start()
     {
         int i = 0;
-        foreach (KeyCode key in StaticControls.keys)
+        foreach (KeyCode key in Settings.keys)
         {
             keyTexts[i++].TryGetComponent(out TextMeshProUGUI text);
             text.text = key.ToString();
@@ -48,7 +48,7 @@ public class Controls : MonoBehaviour
     {
         keyTexts[selectedKeyIndex].TryGetComponent(out TextMeshProUGUI text); 
         text.text = key.ToString();
-        StaticControls.keys[selectedKeyIndex] = key;
+        Settings.keys[selectedKeyIndex] = key;
         selectedKeyIndex = -1;
     }
 }

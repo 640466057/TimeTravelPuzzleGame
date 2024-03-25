@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
         together
     }
 
+    [Header("Stats")]
+    public int KeysObtained = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,11 +49,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //reset
-        if (Input.GetKeyDown(StaticControls.keys[2]))
+        if (Input.GetKeyDown(Settings.keys[2]))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         
         //Time Travel Mode
-        if (Input.GetKeyDown(StaticControls.keys[0]))
+        if (Input.GetKeyDown(Settings.keys[0]))
         {
             if (timeTravelMode == State.box)
                 timeTravelMode = State.together;
@@ -59,7 +62,7 @@ public class PlayerController : MonoBehaviour
         }
         
         //Time Travel
-        if (Input.GetKeyDown(StaticControls.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together)
+        if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together)
         {
                 TM.TimeTravel();
         }
