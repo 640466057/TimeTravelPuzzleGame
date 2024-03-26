@@ -27,6 +27,8 @@ public class TimeMachine : MonoBehaviour
                 RB.constraints = RigidbodyConstraints2D.FreezeAll;
             if (echo.TryGetComponent(out BoxCollider2D BC))
                 BC.enabled = false;
+            if (echo.TryGetComponent(out SpriteRenderer SR))
+                SR.color = new Vector4(0.0f, 1.0f, 0.2f, 0.5f);
             if (echo.TryGetComponent(out AudioSource AS))
                 AS.enabled = false;
         }
