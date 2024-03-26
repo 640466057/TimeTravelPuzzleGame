@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] Vector2 debug;
+    
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator anim;
@@ -59,7 +61,7 @@ public class PlayerController : MonoBehaviour
         }
         
         //Time Travel
-        if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero)
+        if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero) // Checks if pressed the correct key as set in the "settings" script, if it's in the right timetravel mode to travel or if it's just the box, if the "Echo" exists or if the game has not been running for long enough
                 TM.TimeTravel();
 
         // Player Controlls
@@ -100,15 +102,9 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
         }
 
-        anim.SetFloat("VelocityY", rb.velocity.y);
-        
-        if (Input.GetAxisRaw("Horizontal") == 0 && Mathf.Abs(rb.velocity.y) < 0.05)
-        {
-            anim.SetFloat("Idle", 1);
-        }
-        else if (Mathf.Abs(rb.velocity.y) < 0.05)
-        {
-            anim.SetFloat("Idle", -1);
-        }
+        float VelocityY = Mathf.Round(rb.velocity.y * 100) / 100;
+        anim.SetFloat("VelocityY", VelocityY == 0 ? 0 : Mathf.Sign(VelocityY));
+        anim.SetFloat("Moving", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
+        debug = new Vector2(VelocityY == 0 ? 0 : Mathf.Sign(VelocityY), Mathf.Abs(Input.GetAxisRaw("Horizontal")));
     }
 }
