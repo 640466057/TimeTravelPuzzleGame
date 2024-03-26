@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        warpSound.volume = Settings.volume;
         if (gameObject.name.Substring(gameObject.name.Length - 4, 4) == "Echo") //Checks for if the script belongs to an "Echo" and if so, disables it
         {
             gameObject.TryGetComponent(out PlayerController PC);

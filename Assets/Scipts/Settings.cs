@@ -10,5 +10,5 @@ public class Settings : MonoBehaviour
         KeyCode.R
     };
 
-    public static float volume;
+    public static float volume = 1;
 }
