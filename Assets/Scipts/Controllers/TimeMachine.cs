@@ -24,6 +24,7 @@ public class TimeMachine : MonoBehaviour
             echo.TryGetComponent(out TimeMachine TM); TM.enabled = false;
             echo.TryGetComponent(out Rigidbody2D RB); RB.constraints = RigidbodyConstraints2D.FreezeAll;
             echo.TryGetComponent(out BoxCollider2D BC); BC.enabled = false;
+            echo.TryGetComponent(out AudioSource AS); AS.enabled = false;
             echo.TryGetComponent(out SpriteRenderer SR); SR.color = new Vector4(0.0f, 1.0f, 0.2f, 0.5f);
         }
     }

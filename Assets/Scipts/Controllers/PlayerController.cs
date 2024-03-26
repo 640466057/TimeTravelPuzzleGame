@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator anim;
+    [SerializeField] AudioSource warpSound;
 
     [Header("Parameters")]
     [SerializeField] float moveSpeed;
@@ -59,10 +60,13 @@ public class PlayerController : MonoBehaviour
                 timeTravelMode = State.box;
             }
         }
-        
+
         //Time Travel
         if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero) // Checks if pressed the correct key as set in the "settings" script, if it's in the right timetravel mode to travel or if it's just the box, if the "Echo" exists or if the game has not been running for long enough
-                TM.TimeTravel();
+        {
+            warpSound.Play();
+            TM.TimeTravel();
+        }
 
         // Player Controlls
         //Downward raycast to check if the player is on the ground
