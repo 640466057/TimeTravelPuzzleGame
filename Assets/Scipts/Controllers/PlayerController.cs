@@ -60,9 +60,8 @@ public class PlayerController : MonoBehaviour
         
         //Time Travel
         if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero)
-        {
                 TM.TimeTravel();
-        }
+
         // Player Controlls
         //Downward raycast to check if the player is on the ground
         RaycastHit2D[] hit = new RaycastHit2D[1];
