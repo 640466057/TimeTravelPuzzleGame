@@ -179,7 +179,7 @@ MonoBehaviour:
   jumpStrength: 13
   gravity: 6
   jumpGravity: 3
-  timeTravelMode: 0
+  timeTravelMode: 1
   KeysObtained: 0
 --- !u!114 &1386940581657485426
 MonoBehaviour:
