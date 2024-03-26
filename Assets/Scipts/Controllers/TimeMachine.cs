@@ -21,11 +21,14 @@ public class TimeMachine : MonoBehaviour
         {
             echo = Instantiate(gameObject);
             echo.name = echo.name.Substring(0, echo.name.Length - 7) + " Echo";
-            echo.TryGetComponent(out TimeMachine TM); TM.enabled = false;
-            echo.TryGetComponent(out Rigidbody2D RB); RB.constraints = RigidbodyConstraints2D.FreezeAll;
-            echo.TryGetComponent(out BoxCollider2D BC); BC.enabled = false;
-            echo.TryGetComponent(out AudioSource AS); AS.enabled = false;
-            echo.TryGetComponent(out SpriteRenderer SR); SR.color = new Vector4(0.0f, 1.0f, 0.2f, 0.5f);
+            if (echo.TryGetComponent(out TimeMachine TM))
+                TM.enabled = false;
+            if (echo.TryGetComponent(out Rigidbody2D RB))
+                RB.constraints = RigidbodyConstraints2D.FreezeAll;
+            if (echo.TryGetComponent(out BoxCollider2D BC))
+                BC.enabled = false;
+            if (echo.TryGetComponent(out AudioSource AS))
+                AS.enabled = false;
         }
     }
 
