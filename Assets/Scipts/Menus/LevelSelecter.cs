@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelecter : MonoBehaviour
 {
-    public void GoToTutorial()
+    public void GoToLevel0()
     {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("Level 0");
     }
 
     public void GoToLevel1()
@@ -23,5 +23,10 @@ public class LevelSelecter : MonoBehaviour
     public void GoToLevel3()
     {
         SceneManager.LoadScene("Level 3");
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }
