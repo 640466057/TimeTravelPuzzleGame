@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         {
             if (timeTravelMode == State.box)
             {
-                anim.SetFloat("Pink", -1);
+                anim.SetFloat("Pink", 0);
                 timeTravelMode = State.together;
             }
             else if (timeTravelMode == State.together)
