@@ -26,7 +26,6 @@ public class PressurePlate : MonoBehaviour
         if (collider.tag == "box")
         {
             active = true;
-            //transform.GetChild(0).transform.localPosition = new Vector3(0, -0.5f, 0);
         }
     }
 
@@ -35,7 +34,6 @@ public class PressurePlate : MonoBehaviour
         if (collider.tag == "box")
         {
             active = false;
-            //transform.GetChild(0).transform.localPosition = new Vector3(0, -0.45f, 0);
         }
     }
 }

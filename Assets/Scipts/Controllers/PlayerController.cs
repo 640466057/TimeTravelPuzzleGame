@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     }
 
     [Header("Stats")]
-    public int KeysObtained = 0;
+    public int KeysObtained;
 
     // Start is called before the first frame update
     void Start()
