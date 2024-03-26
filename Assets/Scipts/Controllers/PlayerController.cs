@@ -47,13 +47,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(Settings.keys[0]))
         {
             if (timeTravelMode == State.box)
+            {
+                anim.SetFloat("Pink", -1);
                 timeTravelMode = State.together;
+            }
             else if (timeTravelMode == State.together)
+            {
+                anim.SetFloat("Pink", 1);
                 timeTravelMode = State.box;
+            }
         }
         
         //Time Travel
-        if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together)
+        if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero)
         {
                 TM.TimeTravel();
         }
@@ -95,19 +101,15 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
         }
 
-        if (Mathf.Abs(rb.velocity.x) < 1 && Mathf.Abs(rb.velocity.y) < 0.05)
+        anim.SetFloat("VelocityY", rb.velocity.y);
+        
+        if (Input.GetAxisRaw("Horizontal") == 0 && Mathf.Abs(rb.velocity.y) < 0.05)
         {
-            anim.SetBool("Jumping", false);
-            anim.SetBool("Idle", true);
+            anim.SetFloat("Idle", 1);
         }
         else if (Mathf.Abs(rb.velocity.y) < 0.05)
         {
-            anim.SetBool("Jumping", false);
-            anim.SetBool("Idle", false);
-        }
-        else
-        {
-            anim.SetBool("Jumping", true);
+            anim.SetFloat("Idle", -1);
         }
     }
 }

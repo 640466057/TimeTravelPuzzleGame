@@ -8,7 +8,7 @@ public class TimeMachine : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
 
     [Header("Time Travel")]
-    [SerializeField] GameObject echo;
+    public GameObject echo;
     [SerializeField] Vector3 previusPos;
     [SerializeField] Quaternion previusRot;
     [SerializeField] Vector3 previusScale;
