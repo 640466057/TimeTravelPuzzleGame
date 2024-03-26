@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 3274175214846655281}
   - component: {fileID: 327465696872610852}
   - component: {fileID: 6215915563142147215}
+  - component: {fileID: 2962999009088626813}
+  - component: {fileID: 2482093207355078346}
   m_Layer: 0
-  m_Name: Pink Box
+  m_Name: Blue Box
   m_TagString: box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1119452275, guid: 7a878e4706c482e43a3cfcc5a3f4a1df, type: 3}
+  m_Sprite: {fileID: -299353496, guid: 7a878e4706c482e43a3cfcc5a3f4a1df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158,3 +160,35 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &2962999009088626813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3224182570442248620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a251ca95af13d8458423feb6aa4ee3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  AffectedByTimeTravel: 1
+--- !u!114 &2482093207355078346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3224182570442248620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a9e85db3f804f448c8474b66d40fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 6215915563142147215}
+  echo: {fileID: 0}
+  previusPos: {x: 0, y: 0, z: 0}
+  previusRot: {x: 0, y: 0, z: 0, w: 0}
+  previusScale: {x: 0, y: 0, z: 0}
+  previusVelocity: {x: 0, y: 0, z: 0}

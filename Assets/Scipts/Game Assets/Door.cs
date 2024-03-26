@@ -14,10 +14,9 @@ public class Door : MonoBehaviour
         down
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        transform.GetChild(0).localScale = new Vector3 (1.0f, 1 / transform.localScale.y, 1.0f);
     }
 
     // Update is called once per frame
@@ -33,32 +32,39 @@ public class Door : MonoBehaviour
         TryGetComponent(out BoxCollider2D BC);
         if (filledCriteria == checks.Count)
         {
-            if (Mathf.Abs(transform.GetChild(0).transform.localPosition.y) < 1)
+            //door opening
+            if (Mathf.Abs(transform.GetChild(0).localPosition.y) < 1) // Checks if the should still be opening = (it's not already is fully opened)
             {
-                transform.GetChild(0).transform.localPosition += Vector3.down * Time.deltaTime * (openDirection == State.down ? 1 : -1);
-                if (Mathf.Abs(transform.GetChild(0).transform.localPosition.y) > 1)
+                BC.size = new Vector2(1, 2); //Sets the doors hitbox to "moving"
+                BC.offset = new Vector2(0, openDirection == State.down ? -0.5f : 0.5f); //Sets the doors hitbox to "moving"
+                transform.GetChild(0).localPosition += (openDirection == State.down ? 1 : -1) * Time.deltaTime * Vector3.down; // This moves the door up or down depending on the "openDirection"
+
+                if (Mathf.Abs(transform.GetChild(0).localPosition.y) >= 1) // Checks if the door is fully opened
                 {
-                    transform.GetChild(0).transform.localPosition = new Vector3(0, (openDirection == State.down ? -1 : 1), 0);
-                    BC.enabled = false;
+                    transform.GetChild(0).localPosition = new Vector3(0, openDirection == State.down ? -1 : 1, 0); //Corrects the doors position incase it went up a pixel or two to high
+                    BC.size = new Vector2(1, 1); //Sets the doors hitbox to "open"
+                    BC.offset = new Vector2(0, openDirection == State.down ? -1 : 1); //Sets the doors hitbox to "open"
                 }
             }
         }
-        else
+        else if (Mathf.Abs(transform.GetChild(0).localPosition.y) > 0) // Checks if the door should be closing = (it's not already is fully closed)
         {
-            BC.enabled = true;
-            if (Mathf.Abs(transform.GetChild(0).transform.localPosition.y) > 0)
+            //closing
+            BC.size = new Vector2(1, 2); //Sets the doors hitbox to "moving"
+            BC.offset = new Vector2(0, openDirection == State.down ? -0.5f : 0.5f); //Sets the doors hitbox to "moving"
+            transform.GetChild(0).localPosition += (openDirection == State.down ? -1 : 1) * Time.deltaTime * Vector3.down; // This moves the door up or down depending on the "openDirection"
+
+            if (openDirection == State.down && transform.GetChild(0).localPosition.y >= 0) // Checks if the door is fully closed in the down state
             {
-                transform.GetChild(0).transform.localPosition += Vector3.down * Time.deltaTime * (openDirection == State.down ? -1 : 1);
-                if (openDirection == State.down)
-                {
-                    if (transform.GetChild(0).transform.localPosition.y >= 0)
-                        transform.GetChild(0).transform.localPosition = new Vector3(0, 0, 0);
-                }
-                else
-                {
-                    if (transform.GetChild(0).transform.localPosition.y <= 0)
-                        transform.GetChild(0).transform.localPosition = new Vector3(0, 0, 0);
-                }
+                transform.GetChild(0).localPosition = new Vector3(0, 0, 0); //Corrects the doors position incase it went up a pixel or two to high
+                BC.size = new Vector2(1, 1);//Sets the doors hitbox to "closed"
+                BC.offset = new Vector2(0, 0); //Sets the doors hitbox to "closed"
+            }
+            else if (openDirection == State.up && transform.GetChild(0).localPosition.y <= 0) // Checks if the door is fully closed in the up state
+            {
+                transform.GetChild(0).localPosition = new Vector3(0, 0, 0); //Corrects the doors position incase it went down a pixel or two to low
+                BC.size = new Vector2(1, 1); //Sets the doors hitbox to "closed"
+                BC.offset = new Vector2(0, 0); //Sets the doors hitbox to "closed"
             }
         }
     }

@@ -1,9 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
+    [SerializeField] Animator anim;
 
     [Header("Parameters")]
     [SerializeField] float moveSpeed;
@@ -38,10 +33,6 @@ public class PlayerController : MonoBehaviour
         {
             gameObject.TryGetComponent(out PlayerController PC);
             PC.enabled = false;
-        }
-        else
-        {
-            
         }
     }
 
@@ -92,9 +83,31 @@ public class PlayerController : MonoBehaviour
                 rb.gravityScale = jumpGravity;
             else
                 rb.gravityScale = gravity;
+            rb.drag = 1;
+        } else
+        {
+            rb.drag = 5;
         }
-        
+
         if (Input.GetAxisRaw("Horizontal") != 0)
+        {
             rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed, rb.velocity.y);
+            transform.localScale = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
+        }
+
+        if (Mathf.Abs(rb.velocity.x) < 1 && Mathf.Abs(rb.velocity.y) < 0.05)
+        {
+            anim.SetBool("Jumping", false);
+            anim.SetBool("Idle", true);
+        }
+        else if (Mathf.Abs(rb.velocity.y) < 0.05)
+        {
+            anim.SetBool("Jumping", false);
+            anim.SetBool("Idle", false);
+        }
+        else
+        {
+            anim.SetBool("Jumping", true);
+        }
     }
 }

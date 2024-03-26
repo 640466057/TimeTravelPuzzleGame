@@ -1,0 +1,5765 @@
+fileFormatVersion: 2
+guid: 2218ff5b492902342bda744e2919c925
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628142e4625c6f44294fea3da89a7365
+      internalID: 818198776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f6820f8e0cc394d837f0c3d4a9c391
+      internalID: -1200760400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4f4175a655b1d41acd91f7eec625a8
+      internalID: -433219433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb69e95ab9f20140ae2371a3c8413fe
+      internalID: -1537251576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6862c6080a3acc043b66fbf3b26371ca
+      internalID: -1607098038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30333ea73b5c4ff46b82554b50ec98ca
+      internalID: 1855632143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cc7fdf98bc724599dfc07200d1e9a
+      internalID: 283401328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ab16e8ba768b74c9adcd5d3231c611
+      internalID: 629235040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb6bbd603f468741bff471e67ce8106
+      internalID: -1493512370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0117169841f5e54baf5505a0f1fba7b
+      internalID: 2119640832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3025309f17f645b4c45e7199f7e08
+      internalID: 1971103363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a85a1156eed9f41ad9d4644674c14e
+      internalID: -1701116388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04e870ff3f3d62479c2f2f157a472e9
+      internalID: 2131022314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e361ae689e83104993b606845e7cedd
+      internalID: 850459353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca35fc5feb711d4593acb2fbb0680b0
+      internalID: 800688994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25af81e67ca18d41a6036da368aad3e
+      internalID: -753127708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53095f1cdeb63f64eb92504d940ab250
+      internalID: 559122723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c071b48a3c25f45a5627038ad70974
+      internalID: 272682724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_34
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d4e25a34118cf4688afa9800ba8a31
+      internalID: 1370004076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_35
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba01dd418d3e444292f3ad22c873a2d
+      internalID: -877534057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_36
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d229b345106744991fb2a62b804066
+      internalID: -872855241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e476f26a004ffed4daa26604c395da23
+      internalID: -1447065589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ada0ea22ddb03f4eb13f4657ed22ba7
+      internalID: 114323186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a1cbe27aafe324786edee65d8fa83b
+      internalID: -1179230022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38984b6656e3f34d8aff5ad8dc35abf
+      internalID: -165389344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a72a1630466700438b82e3b75b1207e
+      internalID: 1350530256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48064540a0398184a808d61fef7d140f
+      internalID: 2099617474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93977f31313e82c44a7551472425ab04
+      internalID: -418633520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13feb20528b868942bc46b4bab74e1c1
+      internalID: -208945545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_61
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a948bab7c80f84c962d2c0f97d6b38
+      internalID: 1215444822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701dc7fb647acee4498f1027a2c9d8a6
+      internalID: -2091949405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_63
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7869ae8bfc42a9045ad1e21404d45972
+      internalID: -690059923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_64
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92324a27934d7c4db19dd716bef5a19
+      internalID: -606199636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_65
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d793fc408f9a65c498027ce9459f9258
+      internalID: -651352832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_66
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0cbac6bf28d974e80644cdb02065cb
+      internalID: -1300659119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_67
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f796162cb61f6174e995db5c24edfa2b
+      internalID: 547504812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_68
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468bed14ba7c88b4796fe096fc74ebcc
+      internalID: 1735309211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_70
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d505e202e4d549998cb947a324191
+      internalID: 754427930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_71
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34eb64d9c796814e80932c716957210
+      internalID: 1994736552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_72
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ed778576ee143408228ab331b37d83
+      internalID: 1867028049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_73
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c2e40e03625904897336bb27ba4a08
+      internalID: 1231699131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_74
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30bf0ffd46a4384eaaffe908e80c16b
+      internalID: 834992273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_75
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe06a01be6d2c04280dc8f0be2dba95
+      internalID: -337495591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_76
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8a41e5b4ec44646897771e5948d86e
+      internalID: -952371062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_77
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 7424
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bb5d5da4241ea4087db99c13657790
+      internalID: -1567690202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a5a57b7df65e4abfe743bd230bdba
+      internalID: 249982170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_81
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c8713ea760c640b597199f418dca9
+      internalID: 1054762556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_82
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dabcc9a325de72429c444f5f8001620
+      internalID: 445595127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_83
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11493613ac1096249b0158f76e752219
+      internalID: -597640052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_84
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb8ad13ad040ee49b9d31b13720cc18
+      internalID: -1342267340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b95fc7b1a052024d84245c468e133e5
+      internalID: 1116093477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_86
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee645bc85b00d244f91cf6889e6a2363
+      internalID: -933693295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_87
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd519dd14be960d4eaf41f3d0061a6c8
+      internalID: 956164126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_88
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a8d9c14217ed7469a011757d7f4cf1
+      internalID: -355857277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_89
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cc9fbac6317c44abb8c5076ce3d35e
+      internalID: 1170895095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_90
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915592bed1d553d45b914785669aae38
+      internalID: 983590159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468560a2ab1fe064dae8f513598fb16d
+      internalID: -954840278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df732cfc84206a846bf27610d0497858
+      internalID: 1272983650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f092cb30001ea084cbc479311833785c
+      internalID: -1708242274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_110
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9757d5b78ffe2814fa97d4002137650b
+      internalID: 777612684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_111
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c18b7aa535e3f4893001ebcddff0fb
+      internalID: -642525283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_112
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be8989a22de9a440b2047e048bb15af
+      internalID: -2035544567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_113
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da915438d60663c4ca14315d9dec80d3
+      internalID: -1006410303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_114
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74d5f57e5b1529428a3aecd3ea768b9
+      internalID: 62327301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_115
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f359305e1c11737499cce15765d9476e
+      internalID: 1518740193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_116
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51152dc13e6d8af44abc0e737c5ab5ab
+      internalID: 1856785233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_117
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce26c4367fdc16342b5202c265a6a167
+      internalID: 1401071951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_119
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbc1bd9fa8a1a42b4c73d479d644c7
+      internalID: 359975602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_120
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86f4b99a85470e4e91a17411a74763e
+      internalID: 788059890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_121
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea67047b6bac8e4eb370a27e6259a32
+      internalID: -598339705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_122
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93573596cd5abc842b3c9f794a054154
+      internalID: 1460198223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_124
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9eeabcdf594d24e87ee5a326cc1eb5
+      internalID: -678396011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_125
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc6ce2f91b2c8047b45590bf6e64702
+      internalID: -932556177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_126
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862332285934cd042b58921ed0968e98
+      internalID: -1545103102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_127
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c028084985124148a7a2284cfe80c97
+      internalID: -281272895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_128
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3ac1d2fd73f1346a3028ecc370ec66
+      internalID: 1552777292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_129
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e1d3310e33a1e46956a1916fc0d623
+      internalID: 1644886260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_130
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c8528e81f83aa49a2b2c91b890642e
+      internalID: -905669345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_131
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 6912
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187fe021f83a0e24bb7445cefb645251
+      internalID: -676716654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b277f97251afb146ada91e33646ac09
+      internalID: 1470808014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c60f5f7da1174da285b903b1663ea
+      internalID: 1473881799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5352c3ff1b8e5dd40ae7c400e00a1b80
+      internalID: 1367093422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_137
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7387323b2316d843b97f122840dad9e
+      internalID: -2120395411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_138
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30fbfeae3d4618408822ab674cd4dc4
+      internalID: 844842783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_139
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a85f797cf993ec40b3b837d9a83e90a
+      internalID: 1787299309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_140
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e989cf3249f9c7243abe4cea552f203d
+      internalID: -1717411616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_141
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a487ae29674649ad8009bdb3f5d2f
+      internalID: -138751631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_142
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bc4da6341969b498de88b009139ab6
+      internalID: -979008379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d500eaf959f9346ac35f92fae5bef9
+      internalID: -846494898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_159
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e3a35a3a16244098b4185406c96a3
+      internalID: 547054144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_160
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7ea7e11fece0441a0f2e65cd694016
+      internalID: 798051771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_161
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1706ede6dd314b64ebbcf4c8f1d4e604
+      internalID: 800143705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_162
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a742c22a7a9e3c4f96b14788c8c9076
+      internalID: 810457825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_163
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e59643601105b44a913a905db90c63b
+      internalID: -738669504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_164
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c1db2da4469064b99af65b8d7fd7da
+      internalID: -13204177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_165
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e839698359346f44b120c9a842b5223
+      internalID: -175570014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_166
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ac08e5f4c9e404786bdd73ccfcbb1a
+      internalID: -1357268982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_167
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba4eb2ada434be44910b7912b71494a
+      internalID: 818027539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_169
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21748127d2bf6b4984e599e4102e9bd
+      internalID: 836255674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_170
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584d5e7eb986e44992e0c8815d7f69d
+      internalID: 271873781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_171
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b56fe7d456334d459d73f98bcf87587
+      internalID: 1491034304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_172
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbf9e0e01c807249827f3046d35a0b6
+      internalID: 1303026505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_173
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508410cb2959abd4ca190b61cc1fb8db
+      internalID: -967589613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_174
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432b8803361be694bb7deb206ad89e04
+      internalID: 509646854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_175
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a24061ad8b15874d8ee4063eba9943b
+      internalID: -683900413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_176
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a88a23c4eef3c479cda7d798e3deca
+      internalID: -702515790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_177
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc548dd322b92014187da1268ee72055
+      internalID: 1747188352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_178
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca7637c3e6e7bc4b8c7db296220e338
+      internalID: 86052245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_179
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda4e71eb7dcac94c94f608fd321cf28
+      internalID: 1099444025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_180
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 6400
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d779b0dc68e764999fb0afcd44cdc9
+      internalID: -1758198135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfe9ce9629bcd74099e8595bc757cd5
+      internalID: -259185120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_183
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c653ed3af2a5b24f941486b45d02537
+      internalID: 359329893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164bcfc1ffb966c4a8ab6a05497bd8fe
+      internalID: 182238196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_185
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1292b547f22bc414e85faf1abc32f207
+      internalID: 709658191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_186
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b6056acb423cf48888d34956393ba0
+      internalID: -230162329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_187
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddbf79328005bc42a25edc828693146
+      internalID: -2042042778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_188
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad410d5cf46c6364b95a5dd3a12ca68a
+      internalID: 1592344096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_189
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a91b08f2d01e6047b4b565b3de9f1e3
+      internalID: 1963651722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_191
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f686e20b649dd37479e699dfc2653970
+      internalID: 436024466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_206
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42be443a5f13a3445a953af5c57409b2
+      internalID: 1422846644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3756c4e16e70bdf43b2613f57ddbadbc
+      internalID: 163012257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_208
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e0ec299e168ae40b38d70d1be4ca0f
+      internalID: 1633160702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_209
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e3a9931bf2c34bb01d4d210b4b258
+      internalID: -1591941489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_210
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589c6a8ca7e072e4aa1c2c47821a67a4
+      internalID: -2145228167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_211
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4284e9dd2cdab34dae09c8515445992
+      internalID: 504960641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_213
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56798c333a99e1349ab5743a282b3b0d
+      internalID: -386478827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_214
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e42184e15d4de54eb0039211e00ff18
+      internalID: 793798662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_215
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a82e5c545b85046920873ad3748ca6
+      internalID: 416138660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_218
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8133d583d1a9d0b4ea3eafc8ea08548d
+      internalID: 931607981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_219
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b2836b19b68c64c84516d562094920
+      internalID: -1481001664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_220
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ae5b84058cbf419ba00791d97f315
+      internalID: 1008683148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_221
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca7d73849af5d94aa402e67a1e89254
+      internalID: -1882469809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_223
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64547d119f0d4a0418353a97bea3895d
+      internalID: -1925344407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_224
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073c41567d9f10642b5afc11ee09d5a1
+      internalID: -1319754213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_225
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca4d0c48d8d7bd4f828f7f6c120561a
+      internalID: 604911243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_226
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5888
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fed570b6a2e31a47a390c929b36e6e2
+      internalID: 1265117094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_234
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4414ce94a53920469ce9eca3f79ae4b
+      internalID: -1742628411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_235
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465c1351cf1cea74d92f6400ba0a736b
+      internalID: 1538952570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_236
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5339248949b64148ba484697a3553ff
+      internalID: -680794043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_237
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ab5ffbb9807d34db687cb28f0493ac
+      internalID: -1397230624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_238
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6eff0c721236642b8427ee40b6096d
+      internalID: -850138936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_254
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2a46c4f39aa3740b13b520d9f7824d
+      internalID: -1739249988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cf1932ac086b842bf06bedcdb3fa11
+      internalID: 1519562849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_256
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84e21e24d068be4aa2b8916ae10d7d3
+      internalID: 349254333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_257
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd8a46a895ca0f4493585230a955ecb
+      internalID: -2035014363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_258
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9ab7e148944794da66b733acc64a5d
+      internalID: 127518937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_259
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0cc11619eeb674384f04844d7414f4
+      internalID: 40482633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_260
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1840454dec59b1943af4edaa75e8bd15
+      internalID: -1211005533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_261
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b552d6a10fb60234f8be76142147e040
+      internalID: -1890531282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_262
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9633a369de5b56949bbdd919e16467b0
+      internalID: 344550771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_263
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b580341691336a4783c1fd8f082caf9
+      internalID: 619379103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_264
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8614589fc675d74a87ffc0243909509
+      internalID: -1170016470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_265
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab14a66d7ce5a24daca50d00003a363
+      internalID: 685350020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_267
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dbfdc28c93f5049994baa21755c478
+      internalID: -28627020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_268
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd47eccedc3f8428d479e48d0008c1
+      internalID: 13313689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_269
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5384
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f2e827afd0cb845933fbe1aa5d1bc4
+      internalID: -398020621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_270
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba6bcdd749e844c9035b3e3ad673fe
+      internalID: -451587311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_272
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db9d30a8d994fd4499b7b85717e74ea
+      internalID: -270422129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_273
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd6b8edde6ba9945a16f8cac228cdef
+      internalID: 849914116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_274
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0590efbe651195a44bf02f8c72104dbf
+      internalID: 1903182293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_275
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a370ef5ae65cdab41b706ebcfb10175b
+      internalID: -1685347194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_276
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685a70439f7d6b74daa739dc2fb95fa4
+      internalID: -1402839716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_277
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f481eb3df1b774ebd22d1ad3a1b49c
+      internalID: 862350527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_278
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc14e5e6c782242bf9047772b295a4
+      internalID: -436125032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_279
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 5376
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f527bb559b0d740a71d63ea9fca36b
+      internalID: -992465606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_281
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085d9b39c8b2df846b4a342b78c9b269
+      internalID: -641060955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_282
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3932cec097cfecf4fa9f6d7c2337523b
+      internalID: -1466259593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_283
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4e40e2c6f801c4781f2668ba93dbf0
+      internalID: 1711220248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_284
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bd036642860ad41b25f99038e25402
+      internalID: 548958055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_285
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39340769ba742ef4fbb86f6b093da457
+      internalID: 1302887143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_286
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c224e2f8ec05f44e862340a0c9abbb8
+      internalID: 2052745658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_287
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b89d503c2cd6d49bc3756f37e91fb7
+      internalID: 1452847032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_288
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e6005243f2e9c4c9da6cbf45e224fa
+      internalID: -823832041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_289
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a524a9380d91c9347bb8621408682bbc
+      internalID: -1379151351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_290
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd92cea6b2a158408924a937f7c5db5
+      internalID: 1547186795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_291
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0266ae88b2ac804ca4d356bd0224a1e
+      internalID: 2007697503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_292
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8bd228c7215104e9d79eb87161e742
+      internalID: -1713106804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_307
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c77d19deea71e4c8353c362a590c02
+      internalID: 2045703961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_308
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26857f1e9c4a73d4788834140479966c
+      internalID: 303876624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_309
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45919604ec697e42921d6172896ce9b
+      internalID: 1711516366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_310
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c202d49d80cb84db496d19c30791a5
+      internalID: -192154521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_311
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89041188b9911f44abdebed242e5c5f
+      internalID: -303904100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_312
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab32485b86062f4bbb1bb1bd8e297ab
+      internalID: 466857052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_313
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532dee62e24bfd94493e5d61b70b9c14
+      internalID: 538173472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_317
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dad8b6ff01f9a4180093f29ca1fe8f
+      internalID: 1666679731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_318
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2461fb19c1f04469b304f6d6021972
+      internalID: -1881466706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_320
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4676104f827e11a40a366769f9e68eaf
+      internalID: -997228253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_321
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11095d6fcf2815e46abc4433f889db9a
+      internalID: -2075063424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_322
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912168ba03198264789979138ce422dc
+      internalID: -1180869322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_323
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b914384eeba281e41b156f647ac8e1db
+      internalID: 311418891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_324
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1175d77193a004e9a1935103f59bf2
+      internalID: -528761725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_325
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377a13a14c4ff4048848dafe565adcbf
+      internalID: 1577444758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_326
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d88739bd0c9f24aa2dcc991fe77d00
+      internalID: -1546117598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_327
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508dc2aa445194840b94bee798185dd1
+      internalID: 1211964212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_328
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b8b9365043b214f8534c62044f48e7
+      internalID: 1937420844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_329
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af663ea66c64ea74aabf3ad153327f7b
+      internalID: -1758963005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_330
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c97209d45d190f42be4661c729bd5e7
+      internalID: 2095608723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_331
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 4864
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a404df3c60a2f04e9e359dcbb3c1778
+      internalID: -1029289671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_332
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3903982b073134646916379b0e4a8eed
+      internalID: -1381086967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_333
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f40fb7cc09d6f4ba0511878ea2c14a
+      internalID: -1499684537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_334
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3ebbb487f7fee41a898329ca230ff4
+      internalID: 1302798997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_335
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba8fb9ccfa2387429a4138539e8ff1d
+      internalID: 583411753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_336
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2d1c6632d70bd41997156c090f3ea6
+      internalID: -381177471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_337
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73e6fb289f951d47a0cd5ae426d644f
+      internalID: 1067639017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_338
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e7d205fb98da849bf54767ee087ed8
+      internalID: -656054688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_339
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7b8763c3295e946b8c0135dbb6c903
+      internalID: 1393504667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_340
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fac60734950464687b7a6cc9630110
+      internalID: 1947350659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_341
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a3ddbe03da8df4595b430d2ab8f952
+      internalID: 1371012556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_342
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28bfd47c5aae64f861be8ab039489b
+      internalID: -1923476868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_343
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc85bd498e97af409b7d8b46c099c87
+      internalID: 1856610242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_367
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34f496f19692a14e89ff15990084759
+      internalID: 842402556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_368
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f949773fe86a9c4fac2d64c46f210f2
+      internalID: 1670930352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_369
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c23aa9672d59f24c872190f39594db6
+      internalID: 845649615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_370
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f816ab882d81bd345b8f4f32b1111e9c
+      internalID: -818093357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_372
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d7e4e8b7308c428ace0142f137cf2
+      internalID: -1014927236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_373
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ea0d19336e5b42ab8d5f4ef21d197
+      internalID: -1314529760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_374
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92b94c7fed90a94fb7283a584915679
+      internalID: 175755109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_375
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec40c9a1e0603fa4d8b70a808ef68de9
+      internalID: -448620295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_376
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21394c4b2e826d4abf1d0efdbe0e506
+      internalID: 1767246650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_377
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94b8aa6304515a43ae6ff0cbb0a5eb8
+      internalID: 639352129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_378
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdac39b176ac6047aac9f449b9b1374
+      internalID: -258944204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_379
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 4352
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53c73c1071dd344c92e74aeb529b3c0
+      internalID: 1047852641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_395
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cdd240482253b478929d666da9b94a
+      internalID: 562619017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_396
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8850dd1a2763fd44f94772ef0b9e8bcb
+      internalID: -1569218599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_397
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cabba52a3e00c4581727e4b0924ef5
+      internalID: 171278263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_398
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d371b01682574439bd43e269d9d254
+      internalID: -1998964679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_400
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725250c3057eb0e459c03928be4e35e4
+      internalID: 2103219481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_401
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e59f575e10dfa14cb94fb6be6484c8e
+      internalID: 2022562790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_402
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da2384030738c541b3ee950320acc0c
+      internalID: 643871149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_403
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c641cd22f21c44286afd1d9f10da5b
+      internalID: -852278856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_404
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7078b211a7df7bb49a92cf4d2b949fa1
+      internalID: -2109474938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_405
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ee327ee94220f42a98d9833ff1f908
+      internalID: -1553249667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_406
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f2ee76786057c4d868d1cbd939c856
+      internalID: 1404092109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_407
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 3840
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04afa582be3da3342a1709cc442bdb6d
+      internalID: 675461869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_421
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2943078a3e05c49a5ed70e29332b29
+      internalID: -283003526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_422
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4342a30a837bc7a4a929f15f1952a4aa
+      internalID: -1648571025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_423
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30813ccad5f6f014da5c1458830de4bd
+      internalID: -2028113109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_424
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c759e237558f749882e5a8a6981a79
+      internalID: 201777801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_426
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d2d709b146cd14b9f2250a00aa6ddb
+      internalID: -605108275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_427
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c4a67a0a0dc842aee841035652b1e
+      internalID: -2119140218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_428
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2c1b0c1ea859343853fd1102255f65
+      internalID: -879128486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_429
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e153d380ef597a45ae01959dab4d767
+      internalID: -2100660276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_430
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfe38aa2ea9fa24abf45b932a4c952a
+      internalID: -251929272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_431
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c548d45c44a7e3847b4ec5535269752f
+      internalID: -1927809578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_432
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243619e5178212946a437615faec2f00
+      internalID: -1009985958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16RobotTileset 1_433
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 3328
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35371f706be76bb43ae68831eaf85132
+      internalID: -696987400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      16x16RobotTileset 1_0: 818198776
+      16x16RobotTileset 1_1: -1200760400
+      16x16RobotTileset 1_10: 1971103363
+      16x16RobotTileset 1_100: -1701780737
+      16x16RobotTileset 1_101: 197451998
+      16x16RobotTileset 1_102: -1593729111
+      16x16RobotTileset 1_103: 403494531
+      16x16RobotTileset 1_104: 1625924800
+      16x16RobotTileset 1_105: -1386943446
+      16x16RobotTileset 1_106: 595339426
+      16x16RobotTileset 1_107: -954840278
+      16x16RobotTileset 1_108: 1272983650
+      16x16RobotTileset 1_109: -1708242274
+      16x16RobotTileset 1_11: -570085997
+      16x16RobotTileset 1_110: 777612684
+      16x16RobotTileset 1_111: -642525283
+      16x16RobotTileset 1_112: -2035544567
+      16x16RobotTileset 1_113: -1006410303
+      16x16RobotTileset 1_114: 62327301
+      16x16RobotTileset 1_115: 1518740193
+      16x16RobotTileset 1_116: 1856785233
+      16x16RobotTileset 1_117: 1401071951
+      16x16RobotTileset 1_118: 1236576734
+      16x16RobotTileset 1_119: 359975602
+      16x16RobotTileset 1_12: 1035544061
+      16x16RobotTileset 1_120: 788059890
+      16x16RobotTileset 1_121: -598339705
+      16x16RobotTileset 1_122: 1460198223
+      16x16RobotTileset 1_123: 754835992
+      16x16RobotTileset 1_124: -678396011
+      16x16RobotTileset 1_125: -932556177
+      16x16RobotTileset 1_126: -1545103102
+      16x16RobotTileset 1_127: -281272895
+      16x16RobotTileset 1_128: 1552777292
+      16x16RobotTileset 1_129: 1644886260
+      16x16RobotTileset 1_13: -114618168
+      16x16RobotTileset 1_130: -905669345
+      16x16RobotTileset 1_131: -676716654
+      16x16RobotTileset 1_132: -1142525301
+      16x16RobotTileset 1_133: -457605368
+      16x16RobotTileset 1_134: 1470808014
+      16x16RobotTileset 1_135: 1473881799
+      16x16RobotTileset 1_136: 1367093422
+      16x16RobotTileset 1_137: -2120395411
+      16x16RobotTileset 1_138: 844842783
+      16x16RobotTileset 1_139: 1787299309
+      16x16RobotTileset 1_14: 700073382
+      16x16RobotTileset 1_140: -1717411616
+      16x16RobotTileset 1_141: -138751631
+      16x16RobotTileset 1_142: -979008379
+      16x16RobotTileset 1_143: 487938045
+      16x16RobotTileset 1_144: -1765239263
+      16x16RobotTileset 1_145: -959376973
+      16x16RobotTileset 1_146: 1393264796
+      16x16RobotTileset 1_147: -828400289
+      16x16RobotTileset 1_148: 1065928674
+      16x16RobotTileset 1_149: -988169199
+      16x16RobotTileset 1_15: -1915897361
+      16x16RobotTileset 1_150: -1818353801
+      16x16RobotTileset 1_151: -1164743422
+      16x16RobotTileset 1_152: -774533985
+      16x16RobotTileset 1_153: 1766156516
+      16x16RobotTileset 1_154: 952624188
+      16x16RobotTileset 1_155: -671380905
+      16x16RobotTileset 1_156: 2046693802
+      16x16RobotTileset 1_157: 223858205
+      16x16RobotTileset 1_158: -846494898
+      16x16RobotTileset 1_159: 547054144
+      16x16RobotTileset 1_16: 957624032
+      16x16RobotTileset 1_160: 798051771
+      16x16RobotTileset 1_161: 800143705
+      16x16RobotTileset 1_162: 810457825
+      16x16RobotTileset 1_163: -738669504
+      16x16RobotTileset 1_164: -13204177
+      16x16RobotTileset 1_165: -175570014
+      16x16RobotTileset 1_166: -1357268982
+      16x16RobotTileset 1_167: 818027539
+      16x16RobotTileset 1_168: 1365644348
+      16x16RobotTileset 1_169: 836255674
+      16x16RobotTileset 1_17: 186809690
+      16x16RobotTileset 1_170: 271873781
+      16x16RobotTileset 1_171: 1491034304
+      16x16RobotTileset 1_172: 1303026505
+      16x16RobotTileset 1_173: -967589613
+      16x16RobotTileset 1_174: 509646854
+      16x16RobotTileset 1_175: -683900413
+      16x16RobotTileset 1_176: -702515790
+      16x16RobotTileset 1_177: 1747188352
+      16x16RobotTileset 1_178: 86052245
+      16x16RobotTileset 1_179: 1099444025
+      16x16RobotTileset 1_18: -320528438
+      16x16RobotTileset 1_180: -1758198135
+      16x16RobotTileset 1_181: 1880115926
+      16x16RobotTileset 1_182: -259185120
+      16x16RobotTileset 1_183: 359329893
+      16x16RobotTileset 1_184: 182238196
+      16x16RobotTileset 1_185: 709658191
+      16x16RobotTileset 1_186: -230162329
+      16x16RobotTileset 1_187: -2042042778
+      16x16RobotTileset 1_188: 1592344096
+      16x16RobotTileset 1_189: 1963651722
+      16x16RobotTileset 1_19: 1173257858
+      16x16RobotTileset 1_190: -177987676
+      16x16RobotTileset 1_191: 436024466
+      16x16RobotTileset 1_192: -553181255
+      16x16RobotTileset 1_193: -1740533088
+      16x16RobotTileset 1_194: -169034757
+      16x16RobotTileset 1_195: 1986359438
+      16x16RobotTileset 1_196: 59583886
+      16x16RobotTileset 1_197: -1729778614
+      16x16RobotTileset 1_198: -881707143
+      16x16RobotTileset 1_199: 347874127
+      16x16RobotTileset 1_2: -433219433
+      16x16RobotTileset 1_20: 1341049328
+      16x16RobotTileset 1_200: 1365762649
+      16x16RobotTileset 1_201: 764644777
+      16x16RobotTileset 1_202: 775558069
+      16x16RobotTileset 1_203: -2039298097
+      16x16RobotTileset 1_204: -943783643
+      16x16RobotTileset 1_205: 1774168259
+      16x16RobotTileset 1_206: 1422846644
+      16x16RobotTileset 1_207: 163012257
+      16x16RobotTileset 1_208: 1633160702
+      16x16RobotTileset 1_209: -1591941489
+      16x16RobotTileset 1_21: 1304215571
+      16x16RobotTileset 1_210: -2145228167
+      16x16RobotTileset 1_211: 504960641
+      16x16RobotTileset 1_212: 2067418772
+      16x16RobotTileset 1_213: -386478827
+      16x16RobotTileset 1_214: 793798662
+      16x16RobotTileset 1_215: 416138660
+      16x16RobotTileset 1_216: -1914247482
+      16x16RobotTileset 1_217: -1344332904
+      16x16RobotTileset 1_218: 931607981
+      16x16RobotTileset 1_219: -1481001664
+      16x16RobotTileset 1_22: 1970393321
+      16x16RobotTileset 1_220: 1008683148
+      16x16RobotTileset 1_221: -1882469809
+      16x16RobotTileset 1_222: 1003989349
+      16x16RobotTileset 1_223: -1925344407
+      16x16RobotTileset 1_224: -1319754213
+      16x16RobotTileset 1_225: 604911243
+      16x16RobotTileset 1_226: 1265117094
+      16x16RobotTileset 1_227: 184234793
+      16x16RobotTileset 1_228: -14365634
+      16x16RobotTileset 1_229: -195703163
+      16x16RobotTileset 1_23: 83906027
+      16x16RobotTileset 1_230: -187245817
+      16x16RobotTileset 1_231: -882886330
+      16x16RobotTileset 1_232: 897275696
+      16x16RobotTileset 1_233: 255282749
+      16x16RobotTileset 1_234: -1742628411
+      16x16RobotTileset 1_235: 1538952570
+      16x16RobotTileset 1_236: -680794043
+      16x16RobotTileset 1_237: -1397230624
+      16x16RobotTileset 1_238: -850138936
+      16x16RobotTileset 1_239: 939694163
+      16x16RobotTileset 1_24: 504667970
+      16x16RobotTileset 1_240: -1825584734
+      16x16RobotTileset 1_241: 1946156290
+      16x16RobotTileset 1_242: 1192010244
+      16x16RobotTileset 1_243: 1423688546
+      16x16RobotTileset 1_244: -3341827
+      16x16RobotTileset 1_245: 1379038708
+      16x16RobotTileset 1_246: -1724292006
+      16x16RobotTileset 1_247: 939050373
+      16x16RobotTileset 1_248: 772907370
+      16x16RobotTileset 1_249: -314817369
+      16x16RobotTileset 1_25: -611791509
+      16x16RobotTileset 1_250: 559730376
+      16x16RobotTileset 1_251: 1830263598
+      16x16RobotTileset 1_252: 292485772
+      16x16RobotTileset 1_253: 787622811
+      16x16RobotTileset 1_254: -1739249988
+      16x16RobotTileset 1_255: 1519562849
+      16x16RobotTileset 1_256: 349254333
+      16x16RobotTileset 1_257: -2035014363
+      16x16RobotTileset 1_258: 127518937
+      16x16RobotTileset 1_259: 40482633
+      16x16RobotTileset 1_26: 1174888562
+      16x16RobotTileset 1_260: -1211005533
+      16x16RobotTileset 1_261: -1890531282
+      16x16RobotTileset 1_262: 344550771
+      16x16RobotTileset 1_263: 619379103
+      16x16RobotTileset 1_264: -1170016470
+      16x16RobotTileset 1_265: 685350020
+      16x16RobotTileset 1_266: 561094966
+      16x16RobotTileset 1_267: -28627020
+      16x16RobotTileset 1_268: 13313689
+      16x16RobotTileset 1_269: -398020621
+      16x16RobotTileset 1_27: -1701116388
+      16x16RobotTileset 1_270: -451587311
+      16x16RobotTileset 1_271: -545054612
+      16x16RobotTileset 1_272: -270422129
+      16x16RobotTileset 1_273: 849914116
+      16x16RobotTileset 1_274: 1903182293
+      16x16RobotTileset 1_275: -1685347194
+      16x16RobotTileset 1_276: -1402839716
+      16x16RobotTileset 1_277: 862350527
+      16x16RobotTileset 1_278: -436125032
+      16x16RobotTileset 1_279: -992465606
+      16x16RobotTileset 1_28: 2131022314
+      16x16RobotTileset 1_280: 2011512239
+      16x16RobotTileset 1_281: -641060955
+      16x16RobotTileset 1_282: -1466259593
+      16x16RobotTileset 1_283: 1711220248
+      16x16RobotTileset 1_284: 548958055
+      16x16RobotTileset 1_285: 1302887143
+      16x16RobotTileset 1_286: 2052745658
+      16x16RobotTileset 1_287: 1452847032
+      16x16RobotTileset 1_288: -823832041
+      16x16RobotTileset 1_289: -1379151351
+      16x16RobotTileset 1_29: 850459353
+      16x16RobotTileset 1_290: 1547186795
+      16x16RobotTileset 1_291: 2007697503
+      16x16RobotTileset 1_292: -1713106804
+      16x16RobotTileset 1_293: 1269208479
+      16x16RobotTileset 1_294: 440071831
+      16x16RobotTileset 1_295: -1638511005
+      16x16RobotTileset 1_296: 1762951163
+      16x16RobotTileset 1_297: 1598271963
+      16x16RobotTileset 1_298: -626328252
+      16x16RobotTileset 1_299: 745762324
+      16x16RobotTileset 1_3: -1537251576
+      16x16RobotTileset 1_30: 800688994
+      16x16RobotTileset 1_300: -655373348
+      16x16RobotTileset 1_301: -1343201502
+      16x16RobotTileset 1_302: 300347234
+      16x16RobotTileset 1_303: -1632985011
+      16x16RobotTileset 1_304: 1294950086
+      16x16RobotTileset 1_305: -930615120
+      16x16RobotTileset 1_306: 776863164
+      16x16RobotTileset 1_307: 2045703961
+      16x16RobotTileset 1_308: 303876624
+      16x16RobotTileset 1_309: 1711516366
+      16x16RobotTileset 1_31: -753127708
+      16x16RobotTileset 1_310: -192154521
+      16x16RobotTileset 1_311: -303904100
+      16x16RobotTileset 1_312: 466857052
+      16x16RobotTileset 1_313: 538173472
+      16x16RobotTileset 1_314: -269544253
+      16x16RobotTileset 1_315: 1193802084
+      16x16RobotTileset 1_316: 1705512470
+      16x16RobotTileset 1_317: 1666679731
+      16x16RobotTileset 1_318: -1881466706
+      16x16RobotTileset 1_319: 1913791247
+      16x16RobotTileset 1_32: 559122723
+      16x16RobotTileset 1_320: -997228253
+      16x16RobotTileset 1_321: -2075063424
+      16x16RobotTileset 1_322: -1180869322
+      16x16RobotTileset 1_323: 311418891
+      16x16RobotTileset 1_324: -528761725
+      16x16RobotTileset 1_325: 1577444758
+      16x16RobotTileset 1_326: -1546117598
+      16x16RobotTileset 1_327: 1211964212
+      16x16RobotTileset 1_328: 1937420844
+      16x16RobotTileset 1_329: -1758963005
+      16x16RobotTileset 1_33: 272682724
+      16x16RobotTileset 1_330: 2095608723
+      16x16RobotTileset 1_331: -1029289671
+      16x16RobotTileset 1_332: -1381086967
+      16x16RobotTileset 1_333: -1499684537
+      16x16RobotTileset 1_334: 1302798997
+      16x16RobotTileset 1_335: 583411753
+      16x16RobotTileset 1_336: -381177471
+      16x16RobotTileset 1_337: 1067639017
+      16x16RobotTileset 1_338: -656054688
+      16x16RobotTileset 1_339: 1393504667
+      16x16RobotTileset 1_34: 1370004076
+      16x16RobotTileset 1_340: 1947350659
+      16x16RobotTileset 1_341: 1371012556
+      16x16RobotTileset 1_342: -1923476868
+      16x16RobotTileset 1_343: 1856610242
+      16x16RobotTileset 1_344: 1277570409
+      16x16RobotTileset 1_345: 410813600
+      16x16RobotTileset 1_346: 309152918
+      16x16RobotTileset 1_347: 56035641
+      16x16RobotTileset 1_348: -1530007785
+      16x16RobotTileset 1_349: -1678076800
+      16x16RobotTileset 1_35: -877534057
+      16x16RobotTileset 1_350: 707807571
+      16x16RobotTileset 1_351: -1988141090
+      16x16RobotTileset 1_352: 22317660
+      16x16RobotTileset 1_353: -1715746905
+      16x16RobotTileset 1_354: -765579101
+      16x16RobotTileset 1_355: -1165050622
+      16x16RobotTileset 1_356: 1671434469
+      16x16RobotTileset 1_357: -1671178233
+      16x16RobotTileset 1_358: -1858631005
+      16x16RobotTileset 1_359: -239036973
+      16x16RobotTileset 1_36: -872855241
+      16x16RobotTileset 1_360: -439842711
+      16x16RobotTileset 1_361: -1673329134
+      16x16RobotTileset 1_362: 159547754
+      16x16RobotTileset 1_363: -99504436
+      16x16RobotTileset 1_364: 1947294904
+      16x16RobotTileset 1_365: -386351872
+      16x16RobotTileset 1_366: -1209813697
+      16x16RobotTileset 1_367: 842402556
+      16x16RobotTileset 1_368: 1670930352
+      16x16RobotTileset 1_369: 845649615
+      16x16RobotTileset 1_37: -1447065589
+      16x16RobotTileset 1_370: -818093357
+      16x16RobotTileset 1_371: 1967572309
+      16x16RobotTileset 1_372: -1014927236
+      16x16RobotTileset 1_373: -1314529760
+      16x16RobotTileset 1_374: 175755109
+      16x16RobotTileset 1_375: -448620295
+      16x16RobotTileset 1_376: 1767246650
+      16x16RobotTileset 1_377: 639352129
+      16x16RobotTileset 1_378: -258944204
+      16x16RobotTileset 1_379: 1047852641
+      16x16RobotTileset 1_38: 2006335630
+      16x16RobotTileset 1_380: 886568695
+      16x16RobotTileset 1_381: -1046698759
+      16x16RobotTileset 1_382: 461739032
+      16x16RobotTileset 1_383: -1493041073
+      16x16RobotTileset 1_384: 408574734
+      16x16RobotTileset 1_385: 204489577
+      16x16RobotTileset 1_386: 1239143760
+      16x16RobotTileset 1_387: -699867744
+      16x16RobotTileset 1_388: -351680264
+      16x16RobotTileset 1_389: -1932527163
+      16x16RobotTileset 1_39: -2056559125
+      16x16RobotTileset 1_390: 35980667
+      16x16RobotTileset 1_391: 1406639004
+      16x16RobotTileset 1_392: 191244835
+      16x16RobotTileset 1_393: -573793264
+      16x16RobotTileset 1_394: 933784580
+      16x16RobotTileset 1_395: 562619017
+      16x16RobotTileset 1_396: -1569218599
+      16x16RobotTileset 1_397: 171278263
+      16x16RobotTileset 1_398: -1998964679
+      16x16RobotTileset 1_399: -76681728
+      16x16RobotTileset 1_4: -1607098038
+      16x16RobotTileset 1_40: -879636028
+      16x16RobotTileset 1_400: 2103219481
+      16x16RobotTileset 1_401: 2022562790
+      16x16RobotTileset 1_402: 643871149
+      16x16RobotTileset 1_403: -852278856
+      16x16RobotTileset 1_404: -2109474938
+      16x16RobotTileset 1_405: -1553249667
+      16x16RobotTileset 1_406: 1404092109
+      16x16RobotTileset 1_407: 675461869
+      16x16RobotTileset 1_408: -1762324467
+      16x16RobotTileset 1_409: 201189083
+      16x16RobotTileset 1_41: 1576509765
+      16x16RobotTileset 1_410: 316936104
+      16x16RobotTileset 1_411: -1272527646
+      16x16RobotTileset 1_412: 1546805589
+      16x16RobotTileset 1_413: -1555587458
+      16x16RobotTileset 1_414: 133143871
+      16x16RobotTileset 1_415: -1728563300
+      16x16RobotTileset 1_416: 859591064
+      16x16RobotTileset 1_417: 1942973529
+      16x16RobotTileset 1_418: -509812626
+      16x16RobotTileset 1_419: -774481138
+      16x16RobotTileset 1_42: 139982211
+      16x16RobotTileset 1_420: 265450802
+      16x16RobotTileset 1_421: -283003526
+      16x16RobotTileset 1_422: -1648571025
+      16x16RobotTileset 1_423: -2028113109
+      16x16RobotTileset 1_424: 201777801
+      16x16RobotTileset 1_425: -256188938
+      16x16RobotTileset 1_426: -605108275
+      16x16RobotTileset 1_427: -2119140218
+      16x16RobotTileset 1_428: -879128486
+      16x16RobotTileset 1_429: -2100660276
+      16x16RobotTileset 1_43: 475753110
+      16x16RobotTileset 1_430: -251929272
+      16x16RobotTileset 1_431: -1927809578
+      16x16RobotTileset 1_432: -1009985958
+      16x16RobotTileset 1_433: -696987400
+      16x16RobotTileset 1_434: -774630170
+      16x16RobotTileset 1_435: -243656021
+      16x16RobotTileset 1_436: 501712446
+      16x16RobotTileset 1_437: 1151737131
+      16x16RobotTileset 1_438: -487403277
+      16x16RobotTileset 1_439: 372810428
+      16x16RobotTileset 1_44: -88459435
+      16x16RobotTileset 1_440: -2049268056
+      16x16RobotTileset 1_441: -790361368
+      16x16RobotTileset 1_442: -845692505
+      16x16RobotTileset 1_443: -1600418491
+      16x16RobotTileset 1_444: -1333510270
+      16x16RobotTileset 1_445: -874954248
+      16x16RobotTileset 1_446: 1638404364
+      16x16RobotTileset 1_447: 403554521
+      16x16RobotTileset 1_448: 1331531482
+      16x16RobotTileset 1_449: 847145125
+      16x16RobotTileset 1_45: 1504811868
+      16x16RobotTileset 1_450: 2127240373
+      16x16RobotTileset 1_451: 17901449
+      16x16RobotTileset 1_452: 824442208
+      16x16RobotTileset 1_453: -1629711547
+      16x16RobotTileset 1_454: 1848216767
+      16x16RobotTileset 1_455: -939442126
+      16x16RobotTileset 1_456: -526852629
+      16x16RobotTileset 1_457: 1006888901
+      16x16RobotTileset 1_458: -693339791
+      16x16RobotTileset 1_46: -1864526615
+      16x16RobotTileset 1_47: -1754863786
+      16x16RobotTileset 1_48: -479636491
+      16x16RobotTileset 1_49: 230379975
+      16x16RobotTileset 1_5: 1855632143
+      16x16RobotTileset 1_50: 2003641014
+      16x16RobotTileset 1_51: 451411643
+      16x16RobotTileset 1_52: 1300871807
+      16x16RobotTileset 1_53: -1563225516
+      16x16RobotTileset 1_54: 114323186
+      16x16RobotTileset 1_55: -1179230022
+      16x16RobotTileset 1_56: -165389344
+      16x16RobotTileset 1_57: 1350530256
+      16x16RobotTileset 1_58: 2099617474
+      16x16RobotTileset 1_59: -418633520
+      16x16RobotTileset 1_6: 283401328
+      16x16RobotTileset 1_60: -208945545
+      16x16RobotTileset 1_61: 1215444822
+      16x16RobotTileset 1_62: -2091949405
+      16x16RobotTileset 1_63: -690059923
+      16x16RobotTileset 1_64: -606199636
+      16x16RobotTileset 1_65: -651352832
+      16x16RobotTileset 1_66: -1300659119
+      16x16RobotTileset 1_67: 547504812
+      16x16RobotTileset 1_68: 1735309211
+      16x16RobotTileset 1_69: -956367143
+      16x16RobotTileset 1_7: 629235040
+      16x16RobotTileset 1_70: 754427930
+      16x16RobotTileset 1_71: 1994736552
+      16x16RobotTileset 1_72: 1867028049
+      16x16RobotTileset 1_73: 1231699131
+      16x16RobotTileset 1_74: 834992273
+      16x16RobotTileset 1_75: -337495591
+      16x16RobotTileset 1_76: -952371062
+      16x16RobotTileset 1_77: -1567690202
+      16x16RobotTileset 1_78: 1297095329
+      16x16RobotTileset 1_79: 638654549
+      16x16RobotTileset 1_8: -1493512370
+      16x16RobotTileset 1_80: 249982170
+      16x16RobotTileset 1_81: 1054762556
+      16x16RobotTileset 1_82: 445595127
+      16x16RobotTileset 1_83: -597640052
+      16x16RobotTileset 1_84: -1342267340
+      16x16RobotTileset 1_85: 1116093477
+      16x16RobotTileset 1_86: -933693295
+      16x16RobotTileset 1_87: 956164126
+      16x16RobotTileset 1_88: -355857277
+      16x16RobotTileset 1_89: 1170895095
+      16x16RobotTileset 1_9: 2119640832
+      16x16RobotTileset 1_90: 983590159
+      16x16RobotTileset 1_91: -1017045256
+      16x16RobotTileset 1_92: 1092076145
+      16x16RobotTileset 1_93: 1017621997
+      16x16RobotTileset 1_94: 1493481291
+      16x16RobotTileset 1_95: -1013952074
+      16x16RobotTileset 1_96: 631716080
+      16x16RobotTileset 1_97: 2046969895
+      16x16RobotTileset 1_98: 1453127138
+      16x16RobotTileset 1_99: -2093278222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
