@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator anim;
     [SerializeField] AudioSource warpSound;
+    [SerializeField] GameObject pauseMenu;
 
     [Header("Parameters")]
     [SerializeField] float moveSpeed;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         warpSound.volume = Settings.volume;
+        pauseMenu.SetActive(false);
         if (gameObject.name.Substring(gameObject.name.Length - 4, 4) == "Echo") //Checks for if the script belongs to an "Echo" and if so, disables it
         {
             gameObject.TryGetComponent(out PlayerController PC);
@@ -46,7 +48,22 @@ public class PlayerController : MonoBehaviour
         //reset
         if (Input.GetKeyDown(Settings.keys[2]))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
+
+        //pause
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pauseMenu.active == true)
+            {
+                pauseMenu.SetActive(false);
+                Time.timeScale = 1;
+            }
+            else if (pauseMenu.active == false)
+            {
+                pauseMenu.SetActive(true);
+                Time.timeScale = 0;
+            }
+        }
+
         //Time Travel Mode
         if (Input.GetKeyDown(Settings.keys[0]))
         {
