@@ -105,7 +105,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 5
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -178,6 +178,7 @@ MonoBehaviour:
   rb: {fileID: 698784544231641750}
   anim: {fileID: 6982515265738794141}
   warpSound: {fileID: -6757702533871235114}
+  pauseMenu: {fileID: 0}
   moveSpeed: 5
   jumpStrength: 13
   gravity: 6
@@ -202,6 +203,7 @@ MonoBehaviour:
   previusRot: {x: 0, y: 0, z: 0, w: 0}
   previusScale: {x: 0, y: 0, z: 0}
   previusVelocity: {x: 0, y: 0, z: 0}
+  previusHorizontalInput: 0
 --- !u!95 &6982515265738794141
 Animator:
   serializedVersion: 5

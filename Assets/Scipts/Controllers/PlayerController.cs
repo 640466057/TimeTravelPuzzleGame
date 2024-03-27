@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rb.gravityScale = gravity;
         warpSound.volume = Settings.volume;
         pauseMenu.SetActive(false);
         if (gameObject.name.Substring(gameObject.name.Length - 4, 4) == "Echo") //Checks for if the script belongs to an "Echo" and if so, disables it

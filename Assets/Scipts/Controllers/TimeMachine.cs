@@ -22,12 +22,17 @@ public class TimeMachine : MonoBehaviour
         {
             echo = Instantiate(gameObject);
             echo.name = echo.name.Substring(0, echo.name.Length - 7) + " Echo";
+            echo.AddComponent<Echo>();
+
             if (echo.TryGetComponent(out TimeMachine TM))
                 TM.enabled = false;
             if (echo.TryGetComponent(out Rigidbody2D RB))
                 RB.constraints = RigidbodyConstraints2D.FreezeAll;
             if (echo.TryGetComponent(out BoxCollider2D BC))
-                BC.enabled = false;
+            {
+                BC.isTrigger = true;
+                BC.size -= new Vector2(0.05f, 0.05f);
+            }
             if (echo.TryGetComponent(out SpriteRenderer SR))
                 SR.color = new Vector4(0.0f, 1.0f, 0.2f, 0.5f);
             if (echo.TryGetComponent(out AudioSource AS))
@@ -63,8 +68,11 @@ public class TimeMachine : MonoBehaviour
 
     public void TimeTravel()
     {
-        transform.SetPositionAndRotation(previusPos, previusRot);
-        transform.localScale = previusScale;
-        rb.velocity = previusVelocity;
+        if (echo.TryGetComponent(out Echo E) && (E.collider == null || E.collider == gameObject))
+        {
+            transform.SetPositionAndRotation(previusPos, previusRot);
+            transform.localScale = previusScale;
+            rb.velocity = previusVelocity;
+        }
     }
 }
