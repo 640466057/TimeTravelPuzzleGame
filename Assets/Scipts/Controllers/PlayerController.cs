@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //Time Travel
-        if (Input.GetKeyDown(Settings.keys[1]) && gameObject.TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero) // Checks if pressed the correct key as set in the "settings" script, if it's in the right timetravel mode to travel or if it's just the box, if the "Echo" exists or if the game has not been running for long enough
+        if (Input.GetKeyDown(Settings.keys[1]) && TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero) // Checks if pressed the correct key as set in the "settings" script, if it's in the right timetravel mode to travel or if it's just the box, if the "Echo" exists or if the game has not been running for long enough
         {
             warpSound.Play();
             TM.TimeTravel();
@@ -124,9 +124,16 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
         }
 
-        float VelocityY = Mathf.Round(rb.velocity.y * 100) / 100;
-        anim.SetFloat("VelocityY", VelocityY == 0 ? 0 : Mathf.Sign(VelocityY));
+        float velocityY = Mathf.Round(rb.velocity.y * 100) / 100;
+        anim.SetFloat("VelocityY", velocityY == 0 ? 0 : Mathf.Sign(velocityY));
         anim.SetFloat("Moving", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
-        debug = new Vector2(VelocityY == 0 ? 0 : Mathf.Sign(VelocityY), Mathf.Abs(Input.GetAxisRaw("Horizontal")));
+
+        if (TryGetComponent(out TimeMachine Tm) && Tm.echo.TryGetComponent(out Animator A))
+        {
+            float echoVelocityY = Mathf.Round(Tm.previusVelocity.y * 100) / 100;
+            A.SetFloat("VelocityY", echoVelocityY == 0 ? 0 : Mathf.Sign(echoVelocityY));
+            A.SetFloat("Moving", Mathf.Abs(Tm.previusHorizontalInput));
+            debug = new Vector2(echoVelocityY, Mathf.Abs(Tm.previusHorizontalInput));
+        }
     }
 }

@@ -13571,6 +13571,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8349f30e63fca6f49a053cc6cea0c525, type: 3}
+--- !u!1 &1778336509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3557781982540391856, guid: 01c26344b38b0054bbde6c89f54deb0b, type: 3}
+  m_PrefabInstance: {fileID: 440432306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1870663725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13648,6 +13653,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 314628101}
+    - target: {fileID: 5173835261516944468, guid: 72936602b0bcfb24cb1e04f96ff1dab3, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 1778336509}
     - target: {fileID: 6100737006037099788, guid: 72936602b0bcfb24cb1e04f96ff1dab3, type: 3}
       propertyPath: m_Name
       value: Player

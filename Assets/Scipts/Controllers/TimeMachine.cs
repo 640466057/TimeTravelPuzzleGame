@@ -12,7 +12,8 @@ public class TimeMachine : MonoBehaviour
     [SerializeField] Vector3 previusPos;
     [SerializeField] Quaternion previusRot;
     [SerializeField] Vector3 previusScale;
-    [SerializeField] Vector3 previusVelocity;
+    public Vector3 previusVelocity;
+    public float previusHorizontalInput;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,7 @@ public class TimeMachine : MonoBehaviour
         Quaternion rot = transform.rotation;
         Vector3 scale = transform.localScale;
         Vector2 velocity = rb.velocity;
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         yield return new WaitForSeconds(time);
 
@@ -56,6 +58,7 @@ public class TimeMachine : MonoBehaviour
         previusRot = rot;
         previusScale = scale;
         previusVelocity = velocity;
+        previusHorizontalInput = horizontalInput;
     }
 
     public void TimeTravel()
