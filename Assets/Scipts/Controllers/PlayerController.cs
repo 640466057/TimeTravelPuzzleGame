@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         if (gameObject.name.Substring(gameObject.name.Length - 4, 4) == "Echo") //Checks for if the script belongs to an "Echo" and if so, disables it
         {
             gameObject.TryGetComponent(out PlayerController PC);
-            PC.enabled = false;
+            Destroy(PC);
         }
     }
 
@@ -66,25 +66,27 @@ public class PlayerController : MonoBehaviour
         }
 
         //Time Travel Mode
-        if (Input.GetKeyDown(Settings.keys[0]))
+        if (Input.GetKeyDown(Settings.keys[0]) && TryGetComponent(out TimeMachine TM))
         {
             if (timeTravelMode == State.box)
             {
                 anim.SetFloat("Pink", 0);
                 timeTravelMode = State.together;
+                TM.willTimetravel = true;
             }
             else if (timeTravelMode == State.together)
             {
                 anim.SetFloat("Pink", 1);
                 timeTravelMode = State.box;
+                TM.willTimetravel = false;
             }
         }
 
         //Time Travel
-        if (Input.GetKeyDown(Settings.keys[1]) && TryGetComponent(out TimeMachine TM) && timeTravelMode == State.together && TM.echo.transform.localScale != Vector3.zero) // Checks if pressed the correct key as set in the "settings" script, if it's in the right timetravel mode to travel or if it's just the box, if the "Echo" exists or if the game has not been running for long enough
+        if (Input.GetKeyDown(Settings.keys[1]) && TryGetComponent(out TimeMachine Tm) && timeTravelMode == State.together && Tm.echo.transform.localScale != Vector3.zero) // Checks if pressed the correct key as set in the "settings" script, if it's in the right timetravel mode to travel or if it's just the box, if the "Echo" exists or if the game has not been running for long enough
         {
             warpSound.Play();
-            TM.TimeTravel();
+            Tm.TimeTravel();
         }
 
         // Player Controlls
@@ -129,12 +131,12 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("VelocityY", velocityY == 0 ? 0 : Mathf.Sign(velocityY));
         anim.SetFloat("Moving", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
 
-        if (TryGetComponent(out TimeMachine Tm) && Tm.echo.TryGetComponent(out Animator A))
+        if (TryGetComponent(out TimeMachine TimeMachine) && TimeMachine.echo.TryGetComponent(out Animator A))
         {
-            float echoVelocityY = Mathf.Round(Tm.previusVelocity.y * 100) / 100;
+            float echoVelocityY = Mathf.Round(TimeMachine.previusVelocity.y * 100) / 100;
             A.SetFloat("VelocityY", echoVelocityY == 0 ? 0 : Mathf.Sign(echoVelocityY));
-            A.SetFloat("Moving", Mathf.Abs(Tm.previusHorizontalInput));
-            debug = new Vector2(echoVelocityY, Mathf.Abs(Tm.previusHorizontalInput));
+            A.SetFloat("Moving", Mathf.Abs(TimeMachine.previusHorizontalInput));
+            debug = new Vector2(echoVelocityY, Mathf.Abs(TimeMachine.previusHorizontalInput));
         }
     }
 }

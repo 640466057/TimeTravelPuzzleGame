@@ -8,6 +8,7 @@ public class TimeMachine : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
 
     [Header("Time Travel")]
+    public bool willTimetravel;
     public GameObject echo;
     [SerializeField] Vector3 previusPos;
     [SerializeField] Quaternion previusRot;
@@ -23,9 +24,10 @@ public class TimeMachine : MonoBehaviour
             echo = Instantiate(gameObject);
             echo.name = echo.name.Substring(0, echo.name.Length - 7) + " Echo";
             echo.AddComponent<Echo>();
+            echo.TryGetComponent(out Echo E); E.real = gameObject;
 
             if (echo.TryGetComponent(out TimeMachine TM))
-                TM.enabled = false;
+                Destroy(TM);
             if (echo.TryGetComponent(out Rigidbody2D RB))
                 RB.constraints = RigidbodyConstraints2D.FreezeAll;
             if (echo.TryGetComponent(out BoxCollider2D BC))
@@ -36,7 +38,7 @@ public class TimeMachine : MonoBehaviour
             if (echo.TryGetComponent(out SpriteRenderer SR))
                 SR.color = new Vector4(0.0f, 1.0f, 0.2f, 0.5f);
             if (echo.TryGetComponent(out AudioSource AS))
-                AS.enabled = false;
+                Destroy(AS);
         }
     }
 
@@ -68,7 +70,7 @@ public class TimeMachine : MonoBehaviour
 
     public void TimeTravel()
     {
-        if (echo.TryGetComponent(out Echo E) && (E.collider == null || E.collider == gameObject))
+        if (echo.TryGetComponent(out Echo E) && (E.collider == null || (E.collider.TryGetComponent(out TimeMachine TM) && TM.willTimetravel == true)) && willTimetravel)
         {
             transform.SetPositionAndRotation(previusPos, previusRot);
             transform.localScale = previusScale;

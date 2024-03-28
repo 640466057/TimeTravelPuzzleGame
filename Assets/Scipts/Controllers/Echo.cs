@@ -5,6 +5,7 @@ using UnityEngine;
 public class Echo : MonoBehaviour
 {
     public new GameObject collider;
+    public GameObject real;
 
     private void Start()
     {
