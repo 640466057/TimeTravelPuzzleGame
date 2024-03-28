@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 698784544231641750}
+  willTimetravel: 1
   echo: {fileID: 0}
   previusPos: {x: 0, y: 0, z: 0}
   previusRot: {x: 0, y: 0, z: 0, w: 0}
