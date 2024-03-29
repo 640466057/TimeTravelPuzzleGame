@@ -19,6 +19,7 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1;
+        Settings.pink = false;
     }
 
     public void QuitGame()

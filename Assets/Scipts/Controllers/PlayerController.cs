@@ -34,6 +34,20 @@ public class PlayerController : MonoBehaviour
     {
         rb.gravityScale = gravity;
         warpSound.volume = Settings.volume;
+        TryGetComponent(out TimeMachine TM);
+        if (Settings.pink)
+        {
+            anim.SetFloat("Pink", 1);
+            timeTravelMode = State.box;
+            TM.willTimetravel = false;
+        }
+        else
+        {
+            anim.SetFloat("Pink", 0);
+            timeTravelMode = State.together;
+            TM.willTimetravel = true;
+        }
+
         if (gameObject.name.Substring(gameObject.name.Length - 4, 4) == "Echo") //Checks for if the script belongs to an "Echo" and if so, disables it
         {
             gameObject.TryGetComponent(out PlayerController PC);
@@ -54,12 +68,14 @@ public class PlayerController : MonoBehaviour
             if (timeTravelMode == State.box)
             {
                 anim.SetFloat("Pink", 0);
+                Settings.pink = false;
                 timeTravelMode = State.together;
                 TM.willTimetravel = true;
             }
             else if (timeTravelMode == State.together)
             {
                 anim.SetFloat("Pink", 1);
+                Settings.pink = true;
                 timeTravelMode = State.box;
                 TM.willTimetravel = false;
             }
