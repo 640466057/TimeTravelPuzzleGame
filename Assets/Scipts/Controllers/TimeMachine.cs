@@ -70,11 +70,26 @@ public class TimeMachine : MonoBehaviour
 
     public void TimeTravel()
     {
-        if (echo.TryGetComponent(out Echo E) && (E.collider == null || (E.collider.TryGetComponent(out TimeMachine TM) && TM.willTimetravel == true)) && willTimetravel)
+        if (echo.TryGetComponent(out Echo E))
         {
-            transform.SetPositionAndRotation(previusPos, previusRot);
-            transform.localScale = previusScale;
-            rb.velocity = previusVelocity;
+            if (E.collider != null)
+            {
+                bool willEchoColliderWarp = E.collider.TryGetComponent(out TimeMachine TM) && TM.willTimetravel;
+                bool doesEchoColliderHaveHitbox = E.collider.TryGetComponent(out BoxCollider2D BC) && !BC.isTrigger;
+
+                if (willTimetravel && (willEchoColliderWarp || !doesEchoColliderHaveHitbox))
+                {
+                    transform.SetPositionAndRotation(previusPos, previusRot);
+                    transform.localScale = previusScale;
+                    rb.velocity = previusVelocity;
+                }
+            }
+            else if (willTimetravel)
+            {
+                transform.SetPositionAndRotation(previusPos, previusRot);
+                transform.localScale = previusScale;
+                rb.velocity = previusVelocity;
+            }
         }
     }
 }
