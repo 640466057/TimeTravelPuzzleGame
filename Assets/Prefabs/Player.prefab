@@ -178,9 +178,9 @@ MonoBehaviour:
   rb: {fileID: 698784544231641750}
   anim: {fileID: 6982515265738794141}
   warpSound: {fileID: -6757702533871235114}
-  pauseMenu: {fileID: 0}
   moveSpeed: 5
   jumpStrength: 13
+  grounded: 0
   gravity: 6
   jumpGravity: 3
   timeTravelMode: 1

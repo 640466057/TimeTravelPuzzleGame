@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 5972133607381218953}
   keysRequired: 0
-  player: {fileID: 6100737006037099788, guid: 72936602b0bcfb24cb1e04f96ff1dab3, type: 3}
+  player: {fileID: 0}
 --- !u!61 &7381137719092307520
 BoxCollider2D:
   m_ObjectHideFlags: 0
