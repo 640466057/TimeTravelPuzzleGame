@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpStrength;
     bool jumping;
-    bool grounded;
+    [SerializeField] bool grounded;
     [SerializeField] float gravity;
     [SerializeField] float jumpGravity;
 

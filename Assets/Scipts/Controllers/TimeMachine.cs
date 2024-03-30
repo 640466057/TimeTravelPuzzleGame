@@ -25,6 +25,7 @@ public class TimeMachine : MonoBehaviour
             echo.name = echo.name.Substring(0, echo.name.Length - 7) + " Echo";
             echo.AddComponent<Echo>();
             echo.TryGetComponent(out Echo E); E.real = gameObject;
+            echo.layer = 3;
 
             if (echo.TryGetComponent(out TimeMachine TM))
                 Destroy(TM);
@@ -53,11 +54,11 @@ public class TimeMachine : MonoBehaviour
 
     IEnumerator LoadTimeTravel(int time)
     {
-        Vector3 pos = transform.position;
-        Quaternion rot = transform.rotation;
-        Vector3 scale = transform.localScale;
-        Vector2 velocity = rb.velocity;
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        var pos = transform.position;
+        var rot = transform.rotation;
+        var scale = transform.localScale;
+        var velocity = rb.velocity;
+        var horizontalInput = Input.GetAxisRaw("Horizontal");
 
         yield return new WaitForSeconds(time);
 
