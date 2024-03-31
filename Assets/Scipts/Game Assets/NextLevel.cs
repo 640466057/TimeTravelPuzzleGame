@@ -8,7 +8,17 @@ public class NextLevel : MonoBehaviour
     [SerializeField] Animator anim;
     [SerializeField] int keysRequired;
     [SerializeField] GameObject player;
+    [SerializeField] GameObject fade;
+    Animator fadeAnim;
     bool open = false;
+
+    private void Start()
+    {
+        if (fade != null && fade.transform.childCount != 0 && fade.transform.GetChild(0).TryGetComponent(out Animator fadeAnim))
+        {
+            this.fadeAnim = fadeAnim;
+        }
+    }
 
     void Update()
     {
@@ -23,7 +33,10 @@ public class NextLevel : MonoBehaviour
     {
         if (player.TryGetComponent(out PlayerController PC) && PC.KeysObtained >= keysRequired)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (fadeAnim != null)
+                fadeAnim.SetTrigger("FadeOut");
+            else
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
