@@ -9,6 +9,6 @@ public class WarpModeText : MonoBehaviour
 
     void Start()
     {
-        text.text = $"Switch between them with {Settings.keys[0]}\nPink: Just the blue boxes teleport\nBlue: Both you & the boxes teleport";
+        text.text = $"Pink: Just the blue boxes teleport\nBlue: Both you & the boxes teleport\nSwitch between them with {Settings.keys[0]}";
     }
 }
