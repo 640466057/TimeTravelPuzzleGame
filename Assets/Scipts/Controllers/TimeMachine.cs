@@ -13,8 +13,8 @@ public class TimeMachine : MonoBehaviour
     [SerializeField] Vector3 previusPos;
     [SerializeField] Quaternion previusRot;
     [SerializeField] Vector3 previusScale;
-    public Vector3 previusVelocity;
-    public float previusHorizontalInput;
+    [SerializeField] public Vector3 previusVelocity;
+    [SerializeField] public float previusHorizontalInput;
 
     // Start is called before the first frame update
     void Start()
@@ -41,15 +41,23 @@ public class TimeMachine : MonoBehaviour
             if (echo.TryGetComponent(out AudioSource AS))
                 Destroy(AS);
         }
+
+        if (echo == null)
+        {
+            Debug.LogError("Missing Echo");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Time Travel
-        echo.transform.SetPositionAndRotation(previusPos, previusRot);
-        echo.transform.localScale = previusScale;
-        StartCoroutine(LoadTimeTravel(10));
+        if (echo != null)
+        {
+            // Time Travel
+            echo.transform.SetPositionAndRotation(previusPos, previusRot);
+            echo.transform.localScale = previusScale;
+            StartCoroutine(LoadTimeTravel(10));
+        }   
     }
 
     IEnumerator LoadTimeTravel(int time)

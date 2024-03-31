@@ -11,4 +11,5 @@ public class Settings : MonoBehaviour
     };
     public static float volume = 1;
     public static bool pink = false;
+    public static SystemLanguage language; //Future language changing system?
 }

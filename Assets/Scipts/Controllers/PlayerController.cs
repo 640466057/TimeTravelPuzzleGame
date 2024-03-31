@@ -3,12 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] Vector2 debug;
-    
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator anim;
     [SerializeField] AudioSource warpSound;
+    [SerializeField] TimeMachine ECTMS; //Echo Collider Time Machine Script
 
     [Header("Parameters")]
     [SerializeField] float moveSpeed;
@@ -35,23 +34,26 @@ public class PlayerController : MonoBehaviour
         rb.gravityScale = gravity;
         warpSound.volume = Settings.volume;
         TryGetComponent(out TimeMachine TM);
+        ECTMS = transform.GetChild(0).GetComponent<TimeMachine>();
         if (Settings.pink)
         {
             anim.SetFloat("Pink", 1);
             timeTravelMode = State.box;
             TM.willTimetravel = false;
+            ECTMS.willTimetravel = false;
         }
         else
         {
             anim.SetFloat("Pink", 0);
             timeTravelMode = State.together;
             TM.willTimetravel = true;
+            ECTMS.willTimetravel = true;
         }
 
         if (gameObject.name.Substring(gameObject.name.Length - 4, 4) == "Echo") //Checks for if the script belongs to an "Echo" and if so, disables it
         {
-            gameObject.TryGetComponent(out PlayerController PC);
-            Destroy(PC);
+            Destroy(transform.GetChild(0).gameObject);
+            Destroy(gameObject.GetComponent<PlayerController>());
         }
     }
 
@@ -71,6 +73,7 @@ public class PlayerController : MonoBehaviour
                 Settings.pink = false;
                 timeTravelMode = State.together;
                 TM.willTimetravel = true;
+                ECTMS.willTimetravel = true;
             }
             else if (timeTravelMode == State.together)
             {
@@ -78,6 +81,7 @@ public class PlayerController : MonoBehaviour
                 Settings.pink = true;
                 timeTravelMode = State.box;
                 TM.willTimetravel = false;
+                ECTMS.willTimetravel = false;
             }
         }
 
@@ -135,7 +139,6 @@ public class PlayerController : MonoBehaviour
             float echoVelocityY = Mathf.Round(TimeMachine.previusVelocity.y * 100) / 100;
             A.SetFloat("VelocityY", echoVelocityY == 0 ? 0 : Mathf.Sign(echoVelocityY));
             A.SetFloat("Moving", Mathf.Abs(TimeMachine.previusHorizontalInput));
-            debug = new Vector2(echoVelocityY, Mathf.Abs(TimeMachine.previusHorizontalInput));
         }
     }
 }
