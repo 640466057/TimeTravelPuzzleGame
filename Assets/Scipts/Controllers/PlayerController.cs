@@ -129,6 +129,8 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed, rb.velocity.y);
             transform.localScale = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
         }
+        else if (grounded)
+            rb.velocity -= rb.velocity * new Vector2(5, 1) * Time.deltaTime;
 
         float velocityY = Mathf.Round(rb.velocity.y * 100) / 100;
         anim.SetFloat("VelocityY", velocityY == 0 ? 0 : Mathf.Sign(velocityY));
