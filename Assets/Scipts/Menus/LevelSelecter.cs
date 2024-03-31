@@ -7,7 +7,7 @@ public class LevelSelecter : MonoBehaviour
 {
     public void GoToLevel0()
     {
-        SceneManager.LoadScene("Level 0");
+        SceneManager.LoadScene("Tutorial 1");
     }
 
     public void GoToLevel1()

@@ -15214,7 +15214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 314628094}
   offset: {x: 0, y: 0, z: 0}
-  damping: 1
+  damping: 0.1
 --- !u!1 &858107061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3227971607836637340, guid: 2fc68af4d2327f645853f6e6f4e61978, type: 3}

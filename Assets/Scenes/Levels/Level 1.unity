@@ -724,7 +724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 298198948}
   offset: {x: 0, y: 0, z: 0}
-  damping: 1
+  damping: 0.1
 --- !u!114 &1163941790
 MonoBehaviour:
   m_ObjectHideFlags: 0
